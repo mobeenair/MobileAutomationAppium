@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <exclude name="excludeTag">
+<!--                <include name="includeTag"/>-->
+            </exclude>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="/home/mobeen/IdeaProjects/Lecture8Testng">
+        <classes>
+            <class name="org.example.TestNgProject">
+                <methods>
+                </methods>
+            </class>
+            <class name="org.example.TestNgProject2">
+                <methods>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
